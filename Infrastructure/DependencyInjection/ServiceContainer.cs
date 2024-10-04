@@ -2,25 +2,25 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-
-namespace Infrastructure.DependencyInjection;
-
-public static class ServiceContainer
+namespace Infrastructure.DependencyInjection
 {
-    public static IServiceCollection InfrastructureServices(
-        this IServiceCollection services,
-        IConfiguration configuration
-    )
+    public static class ServiceContainer
     {
-        services.AddDbContext<AppDbContext>(
-            options =>
-                options.UseSqlServer(
-                    configuration.GetConnectionString("Default"),
-                    b => b.MigrationsAssembly(typeof(ServiceContainer).Assembly.FullName)
-                ),
-            ServiceLifetime.Scoped
-        );
+        public static IServiceCollection InfrastructureServices(
+            this IServiceCollection services,
+            IConfiguration configuration
+        )
+        {
+            services.AddDbContext<AppDbContext>(
+                options =>
+                    options.UseSqlServer(
+                        configuration.GetConnectionString("Default"),
+                        b => b.MigrationsAssembly(typeof(ServiceContainer).Assembly.FullName)
+                    ),
+                ServiceLifetime.Scoped
+            );
 
-        return services;
+            return services;
+        }
     }
 }

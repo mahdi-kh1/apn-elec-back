@@ -5,9 +5,8 @@ namespace Infrastructure.Data
 {
     internal class AppDbContext : DbContext
     {
-        public AppDbContext(DbContextOptions options)
-            : base(options) { }
+        public AppDbContext(DbContextOptions<AppDbContext> options): base(options) { }
 
-        public DbSet<SysUser> SysUsers { get; set; }
+        public DbSet<SysUser> Users { get; set; }
     }
 }

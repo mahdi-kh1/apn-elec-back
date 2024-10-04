@@ -1,12 +1,105 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Asus\\Desktop\\ApnElecFull\\ApnElectronic\\apnelecserver\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FB03F17-979F-4990-9E45-55500C25B0EC}|Application\\Application.csproj|c:\\users\\asus\\desktop\\apnelecfull\\apnelectronic\\apnelecserver\\application\\dtos\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FB03F17-979F-4990-9E45-55500C25B0EC}|Application\\Application.csproj|solutionrelative:application\\dtos\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD36E43C-E8D5-44E7-BEFE-45C8D347ED6F}|Domain\\Domain.csproj|c:\\users\\asus\\desktop\\apnelecfull\\apnelectronic\\apnelecserver\\domain\\entities\\sysuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD36E43C-E8D5-44E7-BEFE-45C8D347ED6F}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\sysuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus\\Desktop\\ApnElecFull\\ApnElectronic\\apnelecserver\\Infrastructure\\Migrations\\20241004182921_Second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20241004182921_Second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31B885DD-0938-44F2-A3F4-39EB25672FBA}|WebAPI\\WebAPI.csproj|c:\\users\\asus\\desktop\\apnelecfull\\apnelectronic\\apnelecserver\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{31B885DD-0938-44F2-A3F4-39EB25672FBA}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus\\Desktop\\ApnElecFull\\ApnElectronic\\apnelecserver\\Infrastructure\\Migrations\\20241004182526_First.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20241004182526_First.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SysUser.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\ApnElecFull\\ApnElectronic\\apnelecserver\\Domain\\Entities\\SysUser.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\SysUser.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\ApnElecFull\\ApnElectronic\\apnelecserver\\Domain\\Entities\\SysUser.cs",
+              "RelativeToolTip": "Domain\\Entities\\SysUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T18:31:35.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\ApnElecFull\\ApnElectronic\\apnelecserver\\Application\\DTOs\\RegisterUserDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\RegisterUserDTO.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\ApnElecFull\\ApnElectronic\\apnelecserver\\Application\\DTOs\\RegisterUserDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\RegisterUserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T18:31:16.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20241004182921_Second.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\ApnElecFull\\ApnElectronic\\apnelecserver\\Infrastructure\\Migrations\\20241004182921_Second.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241004182921_Second.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\ApnElecFull\\ApnElectronic\\apnelecserver\\Infrastructure\\Migrations\\20241004182921_Second.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20241004182921_Second.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T18:29:22.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\ApnElecFull\\ApnElectronic\\apnelecserver\\WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\ApnElecFull\\ApnElectronic\\apnelecserver\\WebAPI\\appsettings.json",
+              "RelativeToolTip": "WebAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-04T18:28:59.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20241004182526_First.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\ApnElecFull\\ApnElectronic\\apnelecserver\\Infrastructure\\Migrations\\20241004182526_First.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241004182526_First.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\ApnElecFull\\ApnElectronic\\apnelecserver\\Infrastructure\\Migrations\\20241004182526_First.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20241004182526_First.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T18:25:26.556Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
