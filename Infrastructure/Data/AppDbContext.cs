@@ -1,12 +1,13 @@
 ﻿using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Infrastructure.Data;
-
-public class AppDbContext : DbContext
+namespace Infrastructure.Data
 {
-    public AppDbContext(DbContextOptions options) : base(options)
+    internal class AppDbContext : DbContext
     {
+        public AppDbContext(DbContextOptions options)
+            : base(options) { }
+
+        public DbSet<SysUser> SysUsers { get; set; }
     }
-    DbSet<SysUser>  Users { get; set; }
 }
