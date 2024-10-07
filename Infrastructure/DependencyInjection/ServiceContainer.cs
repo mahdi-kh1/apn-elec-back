@@ -40,12 +40,13 @@ namespace Infrastructure.DependencyInjection
                         ValidateAudience = true,
                         ValidateIssuerSigningKey = true,
                         ValidateLifetime = true,
-                        ValidIssuer = configuration["Jwt : Issuer"],
-                        ValidAudience = configuration["Jwt :Audience"],
+                        ValidIssuer = configuration["Jwt:Issuer"], 
+                        ValidAudience = configuration["Jwt:Audience"], 
                         IssuerSigningKey = new SymmetricSecurityKey(
-                            Encoding.UTF8.GetBytes(configuration["Jwt :Key"]!)
+                            Encoding.UTF8.GetBytes(configuration["Jwt:Key"]!) 
                         ),
                     };
+
                 });
             services.AddScoped<IUser, UserRepo>();
             return services;
